@@ -1,0 +1,39 @@
+# Scala/SBT
+target/
+project/project/
+project/target/
+bin/
+lib_managed/
+src_managed/
+.history
+.sbt_home
+
+# Chisel/FIRRTL intermediate files
+test_run_dir/
+*.anno.json
+*.fir
+*.v
+*.sv
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.bsp/
+.metals/
+
+#python
+venv/
+python/venv/
+python/.venv/
+python/env/
+python/__pycache__/
+python/*.pyc
+python/*.egg-info/
+python/dist/
+python/build/
+
+# Python cache
+*.py[cod]
+__pycache__/
+.pytest_cache/
