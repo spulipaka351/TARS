@@ -2,9 +2,9 @@
 
 TARS is a hardware attention accelerator designed to couple with **RocketChip** and accelerate the core computation of Transformer attention:
 
-$$
+[
 O = \operatorname{Softmax}\left(QK^T\right)V
-$$
+]
 The core of TARS is a **mixed-precision systolic array (SA)** supporting **INT8 and FP16** computation. The architecture was originally designed with support for **NF4-based inference and LoRA workloads** in mind, while providing a general datapath for attention computation.
 
 TARS uses a pipelined datapath for computationally intensive components such as the systolic array and softmax unit. A traditional FSM coordinates data movement, matrix multiplication, softmax, and scratchpad accesses.
