@@ -15,6 +15,10 @@ test_run_dir/
 *.v
 *.sv
 *.log
+*.v
+*.sv
+!resources/**/*.sv
+!resources/**/*.v
 
 # IDEs
 .idea/
